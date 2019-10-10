@@ -67,6 +67,8 @@
   }
 
   &::placeholder {
+    // ASA: https://github.com/okta/odyssey/pull/9
+    opacity: 1;
     color: $text-sub;
   }
 }

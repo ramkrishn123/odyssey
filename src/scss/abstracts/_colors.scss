@@ -92,6 +92,7 @@ $white: #ffffff;
 
 $box-shadow-default: 0 2px 0 rgba(175, 175, 175, 0.12);
 
-$text-body: cv('gray', '900');
-$text-heading: cv('gray', '900');
-$text-sub: cv('gray', '500');
+// ASA: https://github.com/okta/odyssey/pull/8
+$text-body: cv('gray', '900') !default;
+$text-heading: cv('gray', '900') !default;
+$text-sub: cv('gray', '500') !default;

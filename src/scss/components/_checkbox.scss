@@ -14,7 +14,8 @@
 
 /* stylelint-disable no-descending-specificity, max-nesting-depth */
 
-.checkbox {
+// ASA: https://github.com/okta/odyssey/pull/13
+input.checkbox {
   @include is-visually-hidden;
 
   &:checked {

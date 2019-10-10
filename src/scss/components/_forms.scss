@@ -110,7 +110,8 @@
 
   .label,
   .input-legend {
-    order: 1;
+    // ASA: https://github.com/okta/odyssey/pull/12
+    // order: 1;
     margin-bottom: $tiny-spacing;
   }
 
@@ -119,7 +120,8 @@
   .select-input,
   .input--unavailable,
   .fieldset--pair {
-    order: 3;
+    // ASA: https://github.com/okta/odyssey/pull/12
+    // order: 3;
   }
 
   .input--unavailable {
@@ -128,7 +130,8 @@
 
   /* stylelint-disable-next-line no-descending-specificity  */
   .field--hint {
-    order: 2;
+    // ASA: https://github.com/okta/odyssey/pull/12
+    // order: 2;
     margin-bottom: $tiny-spacing;
 
     + .label {
@@ -137,7 +140,8 @@
   }
 
   .field--error {
-    order: 4;
+    // ASA: https://github.com/okta/odyssey/pull/12
+    // order: 4;
   }
 }
 
