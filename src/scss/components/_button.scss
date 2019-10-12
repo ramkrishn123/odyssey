@@ -166,6 +166,7 @@
 
 .is-button-small {
   @extend %button-small;
+  font-size: 0.8rem;
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
